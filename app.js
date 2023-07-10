@@ -28,13 +28,6 @@ app.get("/work", function (req, res) {
   res.render("list", { listTitle: "Work List", newAddedItems: wrokItem });
 });
 
-// app.post("/work",function(req,res){
-//   let item = req.body.newItem;
-//   wrokItem.push(item);
-//   res.redirect("/work");
-// });
-
-
 app.listen(3000, function () {
   console.log("server is started on port 3000");
 });
